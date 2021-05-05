@@ -13,5 +13,5 @@
 # Para Abrir
 1. Descargar el .Zip del proyecto y descomprimirlo.
 2. Dentro de la carpeta del proyecto ejecutar en la consola de Git Bash el siguiente comando: npm install
-3. Despues de la instalación de las dependencias de Node, ejecutar el siguiente comando: ng serve
-4. Por último abrir en el navegardor la siguiente ruta:  http://localhost:4200/#/home
+3. Despues de la instalación de las dependencias de Node, ejecutar el siguiente comando para iniciar el aplicativo: ng serve
+4. Por último abrir en el navegador la siguiente URL:  http://localhost:4200/#/home
