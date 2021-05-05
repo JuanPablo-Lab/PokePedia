@@ -1,0 +1,57 @@
+<div class="pokemonList" id="pokemonList">
+    <div class="pokemon" id="pokemon-1">
+      <img src="" alt="" class="imgPokemon" />
+      <p></p>
+    </div>
+
+    <div class="pokemon" id="pokemon-2">
+      <img src="" alt="" class="imgPokemon" />
+      <p></p>
+    </div>
+
+    <div class="pokemon" id="pokemon-3">
+      <img src="" alt="" class="imgPokemon" />
+      <p></p>
+    </div>
+
+    <div class="pokemon" id="pokemon-4">
+      <img src="" alt="" class="imgPokemon" />
+      <p></p>
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="botonesBlock">
+    <div>
+      <img
+        src={{btnReload}}
+        class="imgReloadPokemones"
+        (click) = "ngOnInit()"
+        id="imgReloadPokemones"
+        data-toggle="tooltip"
+        title="Cargar Nuevos Pokemones"
+      />
+    </div>
+
+    <div>
+      <img
+        src={{btnBattle}}
+        class="imgBatalla"
+        id="imgBatalla"
+        data-toggle="tooltip"
+        title="Generar Batalla"
+        routerLink = '/battle'
+      />
+    </div>
+
+    <div>
+      <img
+        src={{btnSearch}}
+        class="imgBuscarNombre"
+        id="imgBuscarNombre"
+        data-toggle="tooltip"
+        title="Buscar por Nombre o Id"
+        routerLink = '/search'
+      />
+    </div>
+  </div>
+

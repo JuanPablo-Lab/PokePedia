@@ -1,0 +1,69 @@
+<br /><br /><br />
+<div class="container" id="container">
+  <form action="" method="GET" class="formulario" id="form">
+    <p class="textPoke">
+      Pokémon:
+      <input
+        type="search"
+        name=""
+        class="buscar"
+        id="buscar"
+        placeholder="Escriba el nombre o id"
+        #buscar
+      />
+    </p>
+
+    <p class="busqueda">
+      <img src="{{ pokeballOpen }}" alt="" class="pokebola-img" />
+      <button type="button" (click)="obtenerConsulta(buscar.value)">
+        <i class="fas fa-search"></i> Buscar
+      </button>
+    </p>
+
+    <br /><br /><br /><br /><br />
+    <div class="botonesBlock">
+      <div>
+        <img
+          src="{{ iconHome }}"
+          class="btnHome"
+          id="imgReloadPokemones"
+          data-toggle="tooltip"
+          title="Volver al Inicio"
+          routerLink="/home"
+        />
+      </div>
+    </div>
+  </form>
+
+  <div class="card" id="pokemon">
+    <div class="card-body">
+      <img
+        src="{{ defaultPokemon }}"
+        alt=""
+        class="card-body-img"
+        id="imgPokemon"
+      />
+      <h1 class="card-body-title">Pikachu</h1>
+      <p class="card-body-text">35 Hp</p>
+      <p class="card-body-text">112 Xp</p>
+    </div>
+
+    <div class="card-footer card-1" id="cardFooter">
+      <div class="card-footer-stat">
+        <h3>55k</h3>
+        <p>Ataque</p>
+      </div>
+
+      <div class="card-footer-stat">
+        <h3>40k</h3>
+        <p>Especial</p>
+      </div>
+
+      <div class="card-footer-stat">
+        <h3>50k</h3>
+        <p>Defensa</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br /><br /><br />

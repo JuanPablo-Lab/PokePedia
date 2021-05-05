@@ -1,0 +1,85 @@
+<div class="card-container" id="pokemonBattle">
+    <div class="card" id="pokemon-1">
+        <div class="card-body">
+            <img src="" alt="" class="card-body-img" />
+            <h1 class="card-body-title"></h1>
+            <p class="card-body-text"></p>
+            <p class="card-body-text"></p>
+        </div>
+
+        <div class="card-footer card-1" id="cardFooter">
+            <div class="card-footer-stat">
+                <h3></h3>
+                <p>Ataque</p>
+            </div>
+
+            <div class="card-footer-stat">
+                <h3></h3>
+                <p>Especial</p>
+            </div>
+
+            <div class="card-footer-stat">
+                <h3></h3>
+                <p>Defensa</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="vs">
+        <img src={{iconVersus}} alt="imgVs" class="vsImg" style="height: 200px" />
+    </div>
+
+    <div class="card" id="pokemon-2">
+        <div class="card-header"></div>
+        <div class="card-body-2">
+            <img src="" alt="" class="card-body-img" />
+            <h1 class="card-body-title"></h1>
+            <p class="card-body-text"></p>
+            <p class="card-body-text"></p>
+        </div>
+
+        <div class="card-footer card-2" id="cardFooter">
+            <div class="card-footer-stat">
+                <h3></h3>
+                <p>Ataque</p>
+            </div>
+
+            <div class="card-footer-stat">
+                <h3></h3>
+                <p>Especial</p>
+            </div>
+
+            <div class="card-footer-stat">
+                <h3></h3>
+                <p>Defensa</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+
+<div class="botonesBlock">
+    <div>
+      <img
+        src={{iconHome}}
+        class="btnHome"   
+        id="imgReloadPokemones"
+        data-toggle="tooltip"
+        title="Volver al Inicio"
+        routerLink='/home'
+      />
+    </div>
+
+    <div>
+      <img
+        src={{iconNewBattle}}
+        class="btnNewBattle"
+        id="imgBatalla"
+        (click)="pokemonesRandomBatalla(2)"
+        data-toggle="tooltip"
+        title="Generar Batalla"
+        routerLink = '/battle'
+      />
+    </div>
+  </div>
