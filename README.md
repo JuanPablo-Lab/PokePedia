@@ -1,7 +1,7 @@
 # PokéPedia
 * Este proyecto utiliza la data directamente del Api 'PokéApi' para fines educativos.
 
-* El contenido de este sitio web fué creado para ser abierto desde un browser moderno con soporte de JavaScript, preferiblemente Google Chrome.
+* Este aplicativo web fué creado para ser abierto desde un browser moderno con soporte de JavaScript, preferiblemente Google Chrome.
 
 # REQUISITOS A INSTALAR
 * Git (Despues de instalarlo, configurar el nombre de usuario y el email global desde la consola). Si no lo tiene instalado descarguelo aquí: https://git-scm.com/
