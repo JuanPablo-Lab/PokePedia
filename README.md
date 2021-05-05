@@ -4,7 +4,7 @@
 * Este aplicativo web fué creado para ser abierto desde un browser moderno con soporte de JavaScript, preferiblemente Google Chrome.
 
 # REQUISITOS A INSTALAR
-* Git (Despues de instalarlo, configurar el nombre de usuario y el email global desde la consola). Si no lo tiene instalado descarguelo aquí: https://git-scm.com/
+* Git (Después de instalarlo, configurar el nombre de usuario y el email global desde la consola). Si no lo tiene instalado descarguelo aquí: https://git-scm.com/
 
 * Node JS Version v14.16.1 LTS con NPM v6.14.12. Si no lo tiene instalado descarguelo aquí: https://nodejs.org/es/
 
