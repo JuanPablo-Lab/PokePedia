@@ -11,7 +11,7 @@
 * Angular CLI v11.2.11. Si no lo tiene instalado ejecute el siguiente comando luego de haber instalado Node JS: npm install -g @angular/cli
 
 # Para Abrir
-1. Descargar el .Zip del proyecto y descomprimirlo.
-2. Dentro de la carpeta del proyecto ejecutar en la consola de Git Bash el siguiente comando: npm install
-3. Despues de la instalación de las dependencias de Node, ejecutar el siguiente comando para iniciar el aplicativo: ng serve
+1. Descargar el archivo .Zip del proyecto y descomprimirlo.
+2. Dentro de la carpeta del proyecto ejecutar en la consola de Git Bash el siguiente comando para instalar los archivos necesarios: npm install
+3. Después de la instalación de los archivos necesarios de Node, ejecutar el siguiente comando para iniciar el aplicativo: ng serve
 4. Por último abrir en el navegador la siguiente URL:  http://localhost:4200/#/home
