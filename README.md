@@ -1,7 +1,7 @@
 # PokéPedia
 * Este proyecto utiliza la data directamente del Api 'PokéApi' para fines educativos.
 
-* El contenido de este sitio web está conformado para ser abierto desde un browser moderno con soporte de JavaScript, preferiblemente Google Chrome.
+* El contenido de este sitio web fué creado para ser abierto desde un browser moderno con soporte de JavaScript, preferiblemente Google Chrome.
 
 # REQUISITOS A INSTALAR
 * Git (Despues de instalarlo, configurar el nombre de usuario y el email global desde la consola). Si no lo tiene instalado descarguelo aquí: https://git-scm.com/
@@ -13,5 +13,5 @@
 # Para Abrir
 1. Descargar el archivo .Zip del proyecto y descomprimirlo.
 2. Dentro de la carpeta del proyecto ejecutar en la consola de Git Bash el siguiente comando para instalar los archivos necesarios: npm install
-3. Después de la instalación de los archivos necesarios, ejecutar el siguiente comando para iniciar el aplicativo: ng serve
+3. Después de la instalación de los archivos necesarios se debe ejecutar el siguiente comando para iniciar el aplicativo: ng serve
 5. Por último abrir en el navegador la siguiente URL:  http://localhost:4200/#/home
