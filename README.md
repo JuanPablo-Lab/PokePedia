@@ -6,7 +6,7 @@
 # REQUISITOS A INSTALAR
 * Git (Después de instalarlo, configurar el nombre de usuario y el email global desde la consola). Si no lo tiene instalado descárguelo aquí: https://git-scm.com/
 
-* Node JS Version v14.16.1 LTS con NPM v6.14.12. Si no lo tiene instalado descárguelo aquí: https://nodejs.org/es/
+* Node JS Versión v14.16.1 LTS con NPM v6.14.12. Si no lo tiene instalado descárguelo aquí: https://nodejs.org/es/
 
 * Angular CLI v11.2.11. Si no lo tiene instalado ejecute el siguiente comando luego de haber instalado Node JS: npm install -g @angular/cli
 
